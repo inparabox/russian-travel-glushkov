@@ -15,7 +15,7 @@
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 32px;
     grid-row-gap: 48px;
-    margin-bottom: 80px ;
+    margin-bottom: 80px;
   }
 }
 
@@ -35,7 +35,7 @@
     grid-template-columns: 47% 49%;
     grid-column-gap: 28px;
     grid-row-gap: 48px;
-    margin-bottom: 73px ;
+    margin-bottom: 73px;
   }
 }
 
@@ -43,6 +43,6 @@
   .place {
     grid-template-columns: 1fr;
     grid-row-gap: 32px;
-    margin-bottom: 50px ;
+    margin-bottom: 50px;
   }
 }
