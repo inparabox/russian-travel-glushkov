@@ -23,3 +23,7 @@ CSS
 Оптиммизирваны фото в https://tinypng.com/
 
 Подключены сторонние шрифты (локально)
+
+Страничка проккта раскатана на GitHub - https://inparabox.github.io/russian-travel-glushkov/
+
+
