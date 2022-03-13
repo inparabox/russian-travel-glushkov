@@ -4,7 +4,6 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 29px;
-    color: #FFFFFF;
   }
 
   .place__prargraph:last-of-type{
@@ -22,7 +21,7 @@
   @media (min-width: 481px) and (max-width: 768px) {
     .place__prargraph {
       margin-top: 0;
-      margin-left: 0; 
+      margin-left: 0;
       margin-right: 0;
       margin-bottom: 25px;
       font-size: 16px;
