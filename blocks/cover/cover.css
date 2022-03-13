@@ -1,0 +1,128 @@
+.cover{
+  max-width: 100%; 
+  min-height: 740px;
+  margin: 0 48px 92px; 
+  position: relative;
+}
+
+
+/*
+.cover{
+  max-width: 100%; 
+  min-height: calc((100vw - 96px)*0.625);
+  margin: 0 48px 92px; 
+  position: relative;
+}
+
+*/
+
+@media (max-width: 1280px) {
+  .cover {
+    max-width: 1184px;
+    margin: 0 auto 92px;
+    min-height: 57.8125vw;
+  
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .cover {
+    max-width: 100%;
+    margin: 0 0 88px;
+    min-height: 62.5vw;
+  
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    margin-bottom: 88px;
+  
+  }
+}
+
+@media (max-width: 480px) {
+  .cover {
+    margin-bottom: 64px;
+  }
+}
+
+
+
+
+.cover::before{
+  content:  '';
+  background-image: url("../../images/cover-trains.jpg");
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-size: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.8;
+  transition: opacity 350ms ease;
+}
+
+.cover:hover::before{
+  opacity: 0.3;
+}
+
+
+/* safw before changes
+
+.cover{
+  background-image: url("../../images/cover-trains.jpg");
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-size: 100%;
+  max-width: 1184px; 
+  min-height: 740px;
+ 
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 92px; 
+  position: relative;
+}
+
+или с ::before
+
+.cover::before{
+  content:  '';
+  background-image: url("../../images/cover-trains.jpg");
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-size: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.cover{
+  max-width: 1184px; 
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 92px; 
+  position: relative;
+}
+
+*/
+
+.footer-link{
+  Font style: Regular;
+  Font size: 16px;
+  Line height: 18px;
+  Line height: 93%;
+  Align: Left;
+  Vertical-align: Top;
+  Fill: Solid;
+  color: #FFFFFF;
+}

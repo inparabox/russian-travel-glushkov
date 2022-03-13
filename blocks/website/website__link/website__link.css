@@ -1,0 +1,20 @@
+.website__link{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF; 
+}
+
+.website__link:hover{
+  opacity: 80%;
+  transition: opacity 350ms ease;
+}
+
+/*
+@media (max-width: 480px) {
+  .website__link {
+    margin-left: 16px; 
+  }
+}*/

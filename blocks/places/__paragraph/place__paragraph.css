@@ -1,0 +1,41 @@
+.place__prargraph{
+    margin: 0 0 26px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+  }
+
+  .place__prargraph:last-of-type{
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .place__prargraph {
+      margin-top: 0;
+      margin-left: 0; 
+      margin-right: 0;
+      margin-bottom: 27px;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .place__prargraph {
+      margin-top: 0;
+      margin-left: 0; 
+      margin-right: 0;
+      margin-bottom: 25px;
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .place__prargraph {
+      margin-top: 32px;
+      margin-left: 16px; 
+      margin-right: 16px;
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }

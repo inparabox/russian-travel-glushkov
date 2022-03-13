@@ -1,0 +1,9 @@
+.footer__link-data{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer__link-data:hover{
+  opacity: 80%;
+  transition: 350ms ease;
+}

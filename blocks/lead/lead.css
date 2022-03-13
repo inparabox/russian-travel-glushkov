@@ -1,0 +1,40 @@
+.lead {
+    max-width: 984px;
+    margin: 0 auto 92px; 
+  }
+ 
+/*
+  Вариант с постоянными боковыми отсупами
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .lead {
+      max-width: calc(100% - 96px);
+      margin: 0 auto 92px;
+    }
+  }
+*/
+
+
+
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .lead {
+      max-width: 928px;
+    }
+  }
+
+
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    .lead {
+      max-width: 100%;
+      margin: 0 0 88px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .lead {
+      max-width: 100%;
+      margin: 0 0 64px;
+      
+    }
+  }

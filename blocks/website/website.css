@@ -1,0 +1,8 @@
+.website{
+  align-self: end; 
+}
+
+@media (max-width: 480px) {
+  .website {
+    margin-left: 16px; 
+  }
