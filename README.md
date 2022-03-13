@@ -24,6 +24,6 @@ CSS
 
 Подключены сторонние шрифты (локально)
 
-Страничка проккта раскатана на GitHub - https://inparabox.github.io/russian-travel-glushkov/
+Страничка проекта раскатана на GitHub - https://inparabox.github.io/russian-travel-glushkov/
 
 
