@@ -5,14 +5,14 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
-  text-align: right;  
+  text-align: right;
   color: #FFFFFF;
 }
 
 .header__lang-link:hover{
   text-decoration: underline;
   opacity: 80%;
-  transition: linear .3s ;
+  transition: linear .3s;
 }
 
 @media (max-width: 480px) {

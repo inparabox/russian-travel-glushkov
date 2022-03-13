@@ -73,7 +73,7 @@
 }
 
 
-/* safw before changes
+/* save before changes
 
 .cover{
   background-image: url("../../images/cover-trains.jpg");
@@ -115,14 +115,3 @@
 }
 
 */
-
-.footer-link{
-  Font style: Regular;
-  Font size: 16px;
-  Line height: 18px;
-  Line height: 93%;
-  Align: Left;
-  Vertical-align: Top;
-  Fill: Solid;
-  color: #FFFFFF;
-}
