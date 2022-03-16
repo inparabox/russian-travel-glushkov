@@ -1,13 +1,16 @@
 @import url(../vendor/fonts.css);
 @import url(../vendor/normalize.css);
 
+/*page*/
+@import url(../blocks/page/page.css);
+
 
 /* header*/
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/header__lang-item/header__lang-item.css);
 @import url(../blocks/header/header__lang-link/header__lang-link.css);
-@import url(../blocks/header/header__lang-link/_status/header__lang-link_status_active.css);
+@import url(../blocks/header/header__lang-link/_active/header__lang-link_active.css);
 @import url(../blocks/header/header__lang-list/header__lang-list.css);
 @import url(../blocks/header/header__logo-pic/header__logo-pic.css);
 @import url(../blocks/header/header__logo/header__logo.css);
@@ -15,6 +18,7 @@
 /*lead*/
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/lead__image-and-caption/lead__image-and-caption.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -33,15 +37,16 @@
 
 /*places*/
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/__image/places__image.css);
-@import url(../blocks/places/__paragraph/place__paragraph.css);
-@import url(../blocks/places/__place/place.css);
-@import url(../blocks/places/__title/places__title.css);
-@import url(../blocks/website/website.css);
-@import url(../blocks/website/website__link/website__link.css);
-@import url(../blocks/website/website__url-heading/website__url-heading.css);
 
 
+/*palce*/
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__prargraph/place__prargraph.css);
+@import url(../blocks/place/__title/place__title.css);
 
 
 /*cover*/
@@ -56,17 +61,3 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link-data/footer__link-data.css);
-
-.page {
-  max-width: 1280px;
-  margin: 0 auto;
-  background-color: #2A2C2F;
-  font-family: 'Inter', sans-serif;
-  color: #FFFFFF;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-}

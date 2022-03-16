@@ -1,9 +1,9 @@
-.website{
+.place__website{
   align-self: end; 
 }
 
 @media (max-width: 480px) {
-  .website {
+  .place__website {
     margin-left: 16px; 
   }
 }

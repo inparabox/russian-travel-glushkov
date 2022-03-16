@@ -12,7 +12,6 @@
   @media (min-width: 769px) and (max-width: 1023px) {
     .place__title {
       max-width: 90%;
-      font-size: 72px;
       line-height: 76px;
     }
   }
@@ -38,6 +37,7 @@
     .place__title {
       margin-left: 16px;
       font-size: 32px;
+      /* при отключении стиля font-size шрифт наследует значение 72px */
       line-height: 35px;  
     }
   }
